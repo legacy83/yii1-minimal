@@ -8,6 +8,14 @@ return array(
 
     'components' => array(
 
+        'urlManager' => array(
+            'urlFormat' => 'path',
+            'showScriptName' => FALSE,
+            'rules' => array(
+                '<alias:\w+>' => 'site/<alias>',
+            ),
+        ),
+
         'db' => require( dirname( __FILE__ ) . '/database.php' ),
 
         'errorHandler' => array(
