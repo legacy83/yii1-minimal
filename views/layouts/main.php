@@ -24,7 +24,7 @@
             ) ); ?>
         </nav>
         <h3 class="text-muted">
-            <?php echo CHtml::encode( Yii::app()->name ); ?>
+            <?php echo CHtml::link( 'Yii1 Minimal', Yii::app()->getHomeUrl() ); ?>
         </h3>
     </div>
 
