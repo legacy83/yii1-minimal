@@ -1,11 +1,11 @@
 {
-  "name": "trsenna/yii2-minimal",
-  "description": "Yii 2 Minimal Project Template",
+  "name": "trsenna/yii1-minimal",
+  "description": "Yii 1 Minimal Project Template",
   "type": "project",
   "license": "BSD-3-Clause",
   "support": {
-    "issues": "https://github.com/trsenna/yii2-minimal/issues",
-    "source": "https://github.com/trsenna/yii2-minimal"
+    "issues": "https://github.com/trsenna/yii1-minimal/issues",
+    "source": "https://github.com/trsenna/yii1-minimal"
   },
   "minimum-stability": "stable",
   "repositories": [
@@ -16,19 +16,12 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "yiisoft/yii2": "~2.0.10",
-    "bower-asset/bootstrap": "3.3.*"
+    "yiisoft/yii": "~1.1.17"
   },
   "require-dev": {
     "trsenna/gozma14": "0.6.0"
   },
   "config": {
     "process-timeout": 1800
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
-    }
   }
 }
