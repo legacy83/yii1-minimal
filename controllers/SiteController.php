@@ -10,4 +10,9 @@ class SiteController extends CController
     {
         $this->render( 'index' );
     }
+
+    public function actionAbout()
+    {
+        $this->render( 'about' );
+    }
 }
