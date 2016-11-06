@@ -6,13 +6,11 @@
  */
 class SiteController extends CController
 {
-    public function actionIndex()
+    public function actions()
     {
-        $this->render( 'index' );
-    }
-
-    public function actionAbout()
-    {
-        $this->render( 'about' );
+        return array(
+            'index' => 'application.actions.SiteIndexAction',
+            'about' => 'application.actions.SiteAboutAction',
+        );
     }
 }
