@@ -11,6 +11,7 @@ class SiteController extends CController
         return array(
             'index' => 'application.actions.SiteIndexAction',
             'about' => 'application.actions.SiteAboutAction',
+            'error' => 'application.actions.SiteErrorAction',
         );
     }
 }
