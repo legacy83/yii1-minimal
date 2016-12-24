@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "819906570c5512ee63b1d14d31143e64",
-    "content-hash": "661ccad74fbdbd9a8a21e2fde08a2a93",
+    "hash": "eac21ba209792506cd04b9680a79a7c3",
+    "content-hash": "c21cc9e0ce5d94bf9e33d92428daf1fb",
     "packages": [
         {
             "name": "yiisoft/yii",
@@ -101,16 +101,16 @@
     "packages-dev": [
         {
             "name": "trsenna/gozma14",
-            "version": "0.8.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trsenna/gozma14.git",
-                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270"
+                "reference": "78cebb800aac60a9dc87716b6d897a403b404381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/14dfbf976d65590ac916e7775e972e7cb9380270",
-                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270",
+                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/78cebb800aac60a9dc87716b6d897a403b404381",
+                "reference": "78cebb800aac60a9dc87716b6d897a403b404381",
                 "shasum": ""
             },
             "type": "project",
@@ -128,7 +128,7 @@
                 "issues": "https://github.com/trsenna/gozma14/issues",
                 "source": "https://github.com/trsenna/gozma14"
             },
-            "time": "2016-12-19 20:29:39"
+            "time": "2016-12-23 23:25:33"
         }
     ],
     "aliases": [],
